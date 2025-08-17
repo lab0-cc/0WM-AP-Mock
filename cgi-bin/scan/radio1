@@ -1,0 +1,71 @@
+{
+	"results": [
+		{
+			"ssid": "AP 1",
+			"bssid": "00:00:00:00:00:06",
+			"mode": "Master",
+			"band": 5,
+			"channel": 108,
+			"mhz": 5540,
+			"signal": -26,
+			"quality": 70,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 108,
+				"secondary_channel_offset": "above",
+				"channel_width": 2040
+			},
+			"vht_operation": {
+				"channel_width": 80,
+				"center_freq_1": 106,
+				"center_freq_2": 0
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [
+					1,
+					2
+				],
+				"authentication": [
+					"psk"
+				],
+				"ciphers": [
+					"ccmp"
+				]
+			}
+		},
+		{
+			"ssid": "AP 5",
+			"bssid": "00:00:00:00:00:07",
+			"mode": "Master",
+			"band": 5,
+			"channel": 108,
+			"mhz": 5540,
+			"signal": -78,
+			"quality": 32,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 108,
+				"secondary_channel_offset": "above",
+				"channel_width": 2040
+			},
+			"vht_operation": {
+				"channel_width": 80,
+				"center_freq_1": 106,
+				"center_freq_2": 0
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [
+					2
+				],
+				"authentication": [
+					"psk"
+				],
+				"ciphers": [
+					"ccmp"
+				]
+			}
+		}
+	]
+}

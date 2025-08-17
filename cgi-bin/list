@@ -1,0 +1,36 @@
+{
+	"radio0": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "1e140000.pcie/pci0000:00/0000:00:01.0/0000:02:00.0",
+			"band": "2g",
+			"channel": "6",
+			"htmode": "HT20",
+			"cell_density": 0
+		},
+		"interfaces": [
+			
+		]
+	},
+	"radio1": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "1e140000.pcie/pci0000:00/0000:00:01.0/0000:02:00.0+1",
+			"band": "5g",
+			"channel": "44",
+			"htmode": "VHT80",
+			"cell_density": 0
+		},
+		"interfaces": [
+			
+		]
+	}
+}

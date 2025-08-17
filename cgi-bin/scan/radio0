@@ -1,0 +1,137 @@
+{
+	"results": [
+		{
+			"bssid": "00:00:00:00:00:01",
+			"mode": "Master",
+			"band": 2,
+			"channel": 1,
+			"mhz": 2412,
+			"signal": -80,
+			"quality": 30,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 1,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 2040
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [
+					2
+				],
+				"authentication": [
+					"psk"
+				],
+				"ciphers": [
+					"ccmp"
+				]
+			}
+		},
+		{
+			"ssid": "AP 1",
+			"bssid": "00:00:00:00:00:02",
+			"mode": "Master",
+			"band": 2,
+			"channel": 1,
+			"mhz": 2412,
+			"signal": -42,
+			"quality": 68,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 1,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 2040
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [
+					1,
+					2
+				],
+				"authentication": [
+					"psk"
+				],
+				"ciphers": [
+					"ccmp"
+				]
+			}
+		},
+		{
+			"ssid": "AP 2",
+			"bssid": "00:00:00:00:00:03",
+			"mode": "Master",
+			"band": 2,
+			"channel": 11,
+			"mhz": 2462,
+			"signal": -79,
+			"quality": 31,
+			"quality_max": 70,
+			"encryption": {
+				"enabled": true,
+				"wpa": [
+					1,
+					2
+				],
+				"authentication": [
+					"psk"
+				],
+				"ciphers": [
+					"tkip",
+					"ccmp"
+				]
+			}
+		},
+		{
+			"ssid": "AP 3",
+			"bssid": "00:00:00:00:00:04",
+			"mode": "Master",
+			"band": 2,
+			"channel": 11,
+			"mhz": 2462,
+			"signal": -86,
+			"quality": 24,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 11,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [
+					2
+				],
+				"authentication": [
+					"psk"
+				],
+				"ciphers": [
+					"ccmp"
+				]
+			}
+		},
+		{
+			"ssid": "AP 4",
+			"bssid": "00:00:00:00:00:05",
+			"mode": "Master",
+			"band": 2,
+			"channel": 11,
+			"mhz": 2462,
+			"signal": -79,
+			"quality": 31,
+			"quality_max": 70,
+			"encryption": {
+				"enabled": true,
+				"wpa": [
+					2
+				],
+				"authentication": [
+					"802.1x"
+				],
+				"ciphers": [
+					"tkip",
+					"ccmp"
+				]
+			}
+		}
+	]
+}
